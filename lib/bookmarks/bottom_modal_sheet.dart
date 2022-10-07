@@ -26,7 +26,7 @@ void onRemoveBookmarkDialog({
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const SizedBox(
-              height: 15,
+              height: 30,
             ),
             const BookmarkItem(
               images: [
@@ -39,6 +39,9 @@ void onRemoveBookmarkDialog({
               going: '20K+ Going',
               location: 'Grand Avenue, Indonesia',
               name: 'Gala Music International Festival',
+            ),
+            const SizedBox(
+              height: 15,
             ),
             const Text(
               'Remove from your bookmark?',
